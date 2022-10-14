@@ -36,6 +36,10 @@ import spotify from "../assets/spotify.png";
 
 import profile from "../assets/profile.jpg";
 import workingMeTrans from "../assets/workingMeTrans.png";
+import engrenage from "../assets/engrenage.svg";
+import electronic from "../assets/electronic.png";
+import Programming from "../assets/Programming.png";
+import typewriter from "../assets/typewriter.png";
 
 export default {
   email,
@@ -72,4 +76,8 @@ export default {
   skype,
   spotify,
   workingMeTrans,
+  engrenage,
+  electronic,
+  Programming,
+  typewriter,
 };
