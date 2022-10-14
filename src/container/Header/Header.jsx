@@ -31,9 +31,6 @@ const Header = () => {
         <li></li> */}
       </ul>
       <div className="app__header-info">
-        {/* <h1 className="head-text">Hi, I'm Marielle</h1>
-        <h2>Creative Technologist</h2> */}
-
         <motion.div
           whileInView={{ x: [-100, 0], opacity: [0, 1] }}
           transition={{ duration: 0.5 }}
@@ -60,20 +57,33 @@ const Header = () => {
             <p className="p-text">
               I believe imagination and storytelling impact people in the
               greatest way. I have always dreamt of using technology to add
-              aliveness to ideas. I have studied electronic in school, and been
-              an electrical safety technician. I have also a strong interest for
-              literature and art performances, therefore I am now eager to merge
-              all my experiences and passions in a logical sequence.
+              aliveness to ideas. I have studied electronic engineering, and
+              I've worked as a quality technician and an electrical safety
+              technician. I have also a strong interest for literature and art
+              performances, therefore I am now eager to merge all my experiences
+              and passions in a logical sequence.
             </p>
+            <a
+              href="creativetech-MPV.pdf"
+              download="creativetech-MPV.pdf"
+              alt="cv file"
+            >
+              <button type="button" className="btn">
+                Download CV
+                <span className="btn-icon">
+                  <FaDownload />
+                </span>
+              </button>
+            </a>
           </div>
         </motion.div>
 
-        {/* <motion.div
+        <motion.div
           whileInView={{ opacity: [0, 1] }}
           transition={{ duration: 0.5, delayChildren: 0.5 }}
           className="app__header-img"
         >
-          <img src={images.profile} alt="profile_bg" />
+          <img src={images.workingMeTrans} alt="profile_bg" />
           <motion.img
             whileInView={{ scale: [0, 1] }}
             transition={{ duration: 1, ease: "easeInOut" }}
@@ -81,24 +91,8 @@ const Header = () => {
             alt="profile_circle"
             className="overlay_circle"
           />
-        </motion.div> */}
+        </motion.div>
 
-        <a
-          href="creativetech-MPV.pdf"
-          download="creativetech-MPV.pdf"
-          alt="cv file"
-        >
-          <button type="button" className="btn">
-            Download CV
-            <span className="btn-icon">
-              <FaDownload />
-            </span>
-          </button>
-        </a>
-      </div>
-
-      <div className="hero-image">
-        <img src={images.workingMeTrans} alt="my face" />
         <motion.div
           variant={scaleVariants}
           whileInView={scaleVariants.whileInView}
