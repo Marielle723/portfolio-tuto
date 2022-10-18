@@ -3,10 +3,10 @@
 :root {
   --font-base: "DM Sans", sans-serif;
 
-  --primary-color: #edf2f8;
-  --secondary-color: rgba(33, 64, 74, 0.6);
-  --black-color: #030303;
-  --lightGray-color: #e4e4e4;
+  --primary-color: #eef1ff;
+  --secondary-color: #192241;
+  --black-color: #1e2431;
+  --lightGray-color: #d994cb;
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;

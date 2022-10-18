@@ -220,27 +220,17 @@
 
   .btn {
     border: 0;
-    padding: 5px 10px;
-
+    padding: 3px;
     width: 100%;
-
     border-radius: 0.25rem;
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     color: var(--writing-color);
     font-weight: bold;
     font-size: 12px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     // margin: 20px;
     transition: 0.3s;
-
-    &:hover {
-      color: rgba(33, 64, 74, 0.9);
-      cursor: pointer;
-    }
 
     span {
       margin-left: 1rem;
@@ -248,12 +238,12 @@
   }
 
   .dl-cv {
-    // background-color: transparent;
     border: #ef744b solid 3px;
   }
 
   .check-services {
     background-color: #ef744b;
+
     span {
       animation: anim-arrow-down 1s linear infinite;
     }
@@ -267,7 +257,7 @@
 }
 
 .animated-area {
-  background: linear-gradient(to left, #e4e4e4, white);
+  // background: linear-gradient(to left, #e4e4e4, white);
   height: 100vh;
   width: 100%;
 }

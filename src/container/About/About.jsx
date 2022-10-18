@@ -20,11 +20,11 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I know that
-        <span> Good Development</span>
+        My
+        <span> Services</span>
         <br />
-        means
-        <span> Good business</span>
+        {/* means
+        <span> Good business</span> */}
       </h2>
 
       <div className="app__profiles">

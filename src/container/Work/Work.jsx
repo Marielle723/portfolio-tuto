@@ -39,12 +39,12 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        My Creative
+        My
         <span> Portfolio</span> Section
       </h2>
 
       <div className="app__work-filter app__flex">
-        {["Electronic", "Web App", "Building tools", "Writing", "All"].map(
+        {["Electronic", "Web Dev", "French tutoring", "Writing", "All"].map(
           (item, index) => (
             <div
               key={index}

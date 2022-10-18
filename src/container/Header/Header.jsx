@@ -67,7 +67,7 @@ const Header = () => {
             </p>
 
             <div className="header-buttons">
-              <button type="button" className="btn dl-cv">
+              <button type="button" className="btn app__flex dl-cv">
                 <a
                   href="creativetech-MPV.pdf"
                   download="creativetech-MPV.pdf"
@@ -80,14 +80,14 @@ const Header = () => {
                 </a>
               </button>
 
-              <a href="#" alt="check-my-services">
-                <button type="button" className="btn check-services">
+              <button type="button" className="btn check-services">
+                <a href="#" alt="check-my-services">
                   Check my services
                   <span>
                     <BsFillArrowDownSquareFill />
                   </span>
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
           </div>
         </motion.div>

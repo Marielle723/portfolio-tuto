@@ -7,6 +7,7 @@ const SocialMedia = () => {
       <div className="anchor-social">
         <a
           href="https://www.linkedin.com/in/marielle-pierre-victor-8065415b/"
+          target="_blank"
           alt="linkedin-marielle-pierre-victor"
           rel="noreferrer"
         >
@@ -26,6 +27,7 @@ const SocialMedia = () => {
       <div>
         <a
           href="https://www.instagram.com/storituella/"
+          target="_blank"
           alt="instagram-storituella"
           rel="noreferrer"
         >
