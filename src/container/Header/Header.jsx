@@ -5,6 +5,7 @@ import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
 
 import { FaDownload } from "react-icons/fa";
+import { BsFillArrowDownSquareFill } from "react-icons/bs";
 
 import "./Header.scss";
 
@@ -46,6 +47,7 @@ const Header = () => {
 
             <div className="tag-cmp app__flex">
               <h3>Creative technologist</h3>
+              <h3>Freelancer</h3>
               <p className="p-text">
                 I conceptualize, build and prototype tech-based creative
                 solutions.
@@ -63,18 +65,30 @@ const Header = () => {
               performances, therefore I am now eager to merge all my experiences
               and passions in a logical sequence.
             </p>
-            <a
-              href="creativetech-MPV.pdf"
-              download="creativetech-MPV.pdf"
-              alt="cv file"
-            >
-              <button type="button" className="btn">
-                Download CV
-                <span className="btn-icon">
-                  <FaDownload />
-                </span>
+
+            <div className="header-buttons">
+              <button type="button" className="btn dl-cv">
+                <a
+                  href="creativetech-MPV.pdf"
+                  download="creativetech-MPV.pdf"
+                  alt="cv file"
+                >
+                  Download CV
+                  <span className="btn-icon">
+                    <FaDownload />
+                  </span>
+                </a>
               </button>
-            </a>
+
+              <a href="#" alt="check-my-services">
+                <button type="button" className="btn check-services">
+                  Check my services
+                  <span>
+                    <BsFillArrowDownSquareFill />
+                  </span>
+                </button>
+              </a>
+            </div>
           </div>
         </motion.div>
 
@@ -83,14 +97,14 @@ const Header = () => {
           transition={{ duration: 0.5, delayChildren: 0.5 }}
           className="app__header-img"
         >
-          <img src={images.workingMeTrans} alt="profile_bg" />
-          <motion.img
+          <img src={images.mebigimg} alt="profile_bg" />
+          {/* <motion.img
             whileInView={{ scale: [0, 1] }}
             transition={{ duration: 1, ease: "easeInOut" }}
             src={images.circle}
             alt="profile_circle"
             className="overlay_circle"
-          />
+          /> */}
         </motion.div>
 
         <motion.div

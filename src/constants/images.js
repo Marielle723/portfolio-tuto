@@ -40,6 +40,7 @@ import engrenage from "../assets/engrenage.svg";
 import electronic from "../assets/electronic.png";
 import Programming from "../assets/Programming.png";
 import typewriter from "../assets/typewriter.png";
+import mebigimg from "../assets/mebigimg.png";
 
 export default {
   email,
@@ -80,4 +81,5 @@ export default {
   electronic,
   Programming,
   typewriter,
+  mebigimg,
 };
